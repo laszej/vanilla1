@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemat nazwa="" bckg_color="#F0000">
+ <domyslne>
+  <tele x="0" y="0" weL="0" weH="0" neg="0" bmp="1" />
+  <linia x="0" y="0" bmp="1" />
+  <symbol x="0" y="0" bmp="1" />
+  <tekst x="0" y="0" width="16" height="16" align="right" nazwa="" weL="0" weH="0" neg="0" kolor="#80" kolorOFF="#808080" kolorON="#FF0000" kolor00="#FFFFFF" kolor11="#FFFFFF" kolorNW="#808000" kolorNDEF="#80" bold="1" fontsize="8" />
+  <pomiar x="0" y="0" width="16" height="16" align="right" we="0" mul="1" div="1" przecinek="0" alarmH="0" alarmL="0" kolorOK="#0" kolorNW="#808000" kolorNDEF="#80" koloralarmH="#FF0000" koloralarmL="#FF00FF" bold="1" fontsize="8" />
+ </domyslne>
+ <obiekt typ="tele">
+  <tele x="224" y="32" weL="0" bmp="1" />
+  <tele x="224" y="128" weL="0" bmp="4" />
+  <tele x="224" y="144" weL="0" bmp="5" />
+ </obiekt>
+ <obiekt typ="linia">
+  <linia x="224" y="48" bmp="1" kolor="#80" />
+  <linia x="224" y="64" bmp="1" kolor="#80" />
+  <linia x="224" y="80" bmp="1" kolor="#80" />
+  <linia x="224" y="96" bmp="1" kolor="#80" />
+  <linia x="224" y="112" bmp="1" kolor="#80" />
+  <linia x="224" y="160" bmp="10" kolor="#80" />
+  <linia x="240" y="160" bmp="2" kolor="#80" />
+  <linia x="272" y="160" bmp="2" kolor="#80" />
+  <linia x="256" y="160" bmp="2" kolor="#80" />
+  <linia x="304" y="160" bmp="2" kolor="#80" />
+  <linia x="288" y="160" bmp="2" kolor="#80" />
+  <linia x="320" y="160" bmp="2" kolor="#80" />
+  <linia x="336" y="160" bmp="8" kolor="#80" />
+  <linia x="336" y="144" bmp="1" kolor="#80" />
+  <linia x="336" y="128" bmp="1" kolor="#80" />
+  <linia x="336" y="96" bmp="1" kolor="#80" />
+  <linia x="336" y="80" bmp="1" kolor="#80" />
+  <linia x="336" y="112" bmp="1" kolor="#80" />
+  <linia x="336" y="64" bmp="1" kolor="#80" />
+  <linia x="336" y="48" bmp="1" kolor="#80" />
+  <linia x="336" y="32" bmp="1" kolor="#80" />
+  <linia x="336" y="16" bmp="9" kolor="#80" />
+  <linia x="320" y="16" bmp="2" kolor="#80" />
+  <linia x="304" y="16" bmp="2" kolor="#80" />
+  <linia x="288" y="16" bmp="2" kolor="#80" />
+  <linia x="272" y="16" bmp="2" kolor="#80" />
+  <linia x="256" y="16" bmp="2" kolor="#80" />
+  <linia x="240" y="16" bmp="2" kolor="#80" />
+  <linia x="224" y="16" bmp="5" kolor="#80" />
+ </obiekt>
+ <obiekt typ="symbol">
+ </obiekt>
+ <obiekt typ="tekst">
+ </obiekt>
+ <obiekt typ="pomiar">
+ </obiekt>
+</schemat>

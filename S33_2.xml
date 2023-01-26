@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemat nazwa="S33_2" bckg_color="#0" ss_bay="Markethill Central">
+ <domyslne>
+  <tele x="0" y="0" width="16" height="16" weL="0" weH="0" neg="0" bmp="1" />
+  <linia x="0" y="0" bmp="1" />
+  <symbol x="0" y="0" width="16" height="16" bmp="1" />
+  <tekst x="0" y="0" width="16" height="16" align="right" nazwa="" weL="0" weH="0" neg="0" kolor="#80" kolorOFF="#808080" kolorON="#FF0000" kolor00="#FFFFFF" kolor11="#FFFFFF" kolorNW="#808000" kolorNDEF="#80" bold="1" fontsize="8" />
+  <pomiar x="0" y="0" width="16" height="16" align="right" we="0" mul="1" div="1" przecinek="0" alarmH="0" alarmL="0" kolorOK="#0" kolorNW="#808000" kolorNDEF="#80" koloralarmH="#FF0000" koloralarmL="#FF00FF" bold="1" fontsize="8" />
+  <button x="0" y="0" width="16" height="16" nazwa=""  plik="" ster="" kolorBtn="#808080" kolorFont="#0" sizeFont="8" />
+ </domyslne>
+ <obiekt typ="tele">
+ </obiekt>
+ <obiekt typ="linia">
+  <linia x="112" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="96" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="80" y="270" bmp="1" kolor="#FF0000" />
+  <linia x="80" y="334" bmp="1" kolor="#80C0" />
+  <linia x="80" y="208" bmp="1" kolor="#FF0000" />
+  <linia x="144" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="128" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="192" y="96" bmp="1" kolor="#FF0000" />
+  <linia x="192" y="160" bmp="1" kolor="#FF0000" />
+  <linia x="192" y="176" bmp="1" kolor="#FF0000" />
+  <linia x="192" y="192" bmp="6" kolor="#FF0000" />
+  <linia x="224" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="160" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="208" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="176" y="192" bmp="2" kolor="#FF0000" />
+  <linia x="80" y="192" bmp="11" kolor="#FF0000" />
+ </obiekt>
+ <obiekt typ="symbol">
+  <symbol x="64" y="286" width="48" height="48" bmp="101" />
+  <symbol x="64" y="224" width="48" height="48" bmp="106" />
+  <symbol x="176" y="112" width="48" height="48" bmp="106" />
+ </obiekt>
+ <obiekt typ="tekst">
+  <tekst x="112" y="304" width="32" nazwa="TX2" kolor="#C0C0C0" />
+  <tekst x="30" y="16" width="100" height="48" align="left" nazwa="Markethill Central" kolor="#FFFF00" fontsize="17" />
+  <tekst x="240" y="192" width="32" align="left" nazwa="33kV" kolor="#C0C0C0" />
+  <tekst x="240" y="256" width="32" align="left" nazwa="RHS" kolor="#C0C0C0" />
+ </obiekt>
+ <obiekt typ="pomiar">
+ </obiekt>
+ <obiekt typ="button">
+  <button x="112" y="240" width="47" height="19" nazwa="T757" kolorBtn="#0" kolorFont="#C0C0C0" plik="K33_3.scl" />
+  <button x="176" y="80" width="48" height="19" nazwa="T758" kolorBtn="#0" kolorFont="#C0C0C0" />
+  <button x="144" y="400" width="112" height="24" nazwa="Station Level" kolorFont="#FFFFFF" plik="main.scl" />
+  <button x="48" y="400" width="80" height="24" nazwa="&#60;- Section" kolorFont="#FFFFFF" plik="S33_1.scl" />
+ </obiekt>
+</schemat>

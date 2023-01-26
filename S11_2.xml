@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemat nazwa="S11_2" bckg_color="#0" ss_bay="Markethill Central">
+ <domyslne>
+  <tele x="0" y="0" width="16" height="16" weL="0" weH="0" neg="0" bmp="1" />
+  <linia x="0" y="0" bmp="1" />
+  <symbol x="0" y="0" width="16" height="16" bmp="1" />
+  <tekst x="0" y="0" width="16" height="16" align="right" nazwa="" weL="0" weH="0" neg="0" kolor="#80" kolorOFF="#808080" kolorON="#FF0000" kolor00="#FFFFFF" kolor11="#FFFFFF" kolorNW="#808000" kolorNDEF="#80" bold="1" fontsize="8" />
+  <pomiar x="0" y="0" width="16" height="16" align="right" we="0" mul="1" div="1" przecinek="0" alarmH="0" alarmL="0" kolorOK="#0" kolorNW="#808000" kolorNDEF="#80" koloralarmH="#FF0000" koloralarmL="#FF00FF" bold="1" fontsize="8" />
+  <button x="0" y="0" width="16" height="16" nazwa=""  plik="" ster="" kolorBtn="#808080" kolorFont="#0" sizeFont="8" />
+ </domyslne>
+ <obiekt typ="tele">
+ </obiekt>
+ <obiekt typ="linia">
+  <linia x="128" y="208" bmp="1" kolor="#80C0" />
+  <linia x="128" y="224" bmp="6" kolor="#80C0" />
+  <linia x="112" y="224" bmp="2" kolor="#80C0" />
+  <linia x="144" y="224" bmp="2" kolor="#80C0" />
+  <linia x="160" y="224" bmp="2" kolor="#80C0" />
+  <linia x="96" y="224" bmp="2" kolor="#80C0" />
+  <linia x="128" y="144" bmp="1" kolor="#80C0" />
+  <linia x="128" y="80" bmp="1" kolor="#FF0000" />
+  <linia x="176" y="224" bmp="2" kolor="#80C0" />
+  <linia x="192" y="224" bmp="2" kolor="#80C0" />
+  <linia x="240" y="224" bmp="7" kolor="#80C0" />
+  <linia x="272" y="224" bmp="2" kolor="#80C0" />
+  <linia x="208" y="224" bmp="2" kolor="#80C0" />
+  <linia x="256" y="224" bmp="2" kolor="#80C0" />
+  <linia x="224" y="224" bmp="2" kolor="#80C0" />
+  <linia x="240" y="240" bmp="1" kolor="#80C0" />
+  <linia x="240" y="304" bmp="1" kolor="#80C0" />
+  <linia x="240" y="320" bmp="1" kolor="#80C0" />
+  <linia x="320" y="224" bmp="7" kolor="#80C0" />
+  <linia x="352" y="224" bmp="2" kolor="#80C0" />
+  <linia x="288" y="224" bmp="2" kolor="#80C0" />
+  <linia x="336" y="224" bmp="2" kolor="#80C0" />
+  <linia x="304" y="224" bmp="2" kolor="#80C0" />
+  <linia x="320" y="240" bmp="1" kolor="#80C0" />
+  <linia x="320" y="304" bmp="1" kolor="#80C0" />
+  <linia x="320" y="320" bmp="1" kolor="#80C0" />
+ </obiekt>
+ <obiekt typ="symbol">
+  <symbol x="48" y="208" width="48" height="48" bmp="105" />
+  <symbol x="112" y="96" width="48" height="48" bmp="101" />
+  <symbol x="112" y="160" width="48" height="48" bmp="104" />
+  <symbol x="224" y="256" width="48" height="48" bmp="104" />
+  <symbol x="304" y="256" width="48" height="48" bmp="104" />
+ </obiekt>
+ <obiekt typ="tekst">
+  <tekst x="160" y="112" width="32" nazwa="TX2" kolor="#C0C0C0" />
+  <tekst x="94" y="16" width="100" height="48" align="left" nazwa="Markethill Central" kolor="#FFFF00" fontsize="17" />
+  <tekst x="368" y="224" width="32" align="left" nazwa="11kV" kolor="#C0C0C0" />
+  <tekst x="368" y="256" width="32" align="left" nazwa="RHS" kolor="#C0C0C0" />
+ </obiekt>
+ <obiekt typ="pomiar">
+ </obiekt>
+ <obiekt typ="button">
+  <button x="48" y="256" width="50" height="19" nazwa="18/5" kolorBtn="#0" kolorFont="#C0C0C0" />
+  <button x="160" y="176" width="48" height="19" nazwa="18/6" kolorBtn="#0" kolorFont="#C0C0C0" />
+  <button x="224" y="336" width="48" height="19" nazwa="18/7" kolorBtn="#0" kolorFont="#C0C0C0" />
+  <button x="200" y="400" width="112" height="24" nazwa="Station Level" kolorFont="#FFFFFF" plik="main.scl" />
+  <button x="48" y="400" width="80" height="24" nazwa="&#60;- Section" kolorFont="#FFFFFF" plik="S11_1.scl" />
+ </obiekt>
+</schemat>

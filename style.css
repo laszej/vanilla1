@@ -1,0 +1,210 @@
+#root{
+  margin: 0 auto;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#header-main{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:#fff;
+  margin-bottom:20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.header-logo{
+  color:#002f67
+}
+.charts, .home{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  flex-direction:column;
+  border-left: 5px solid steelblue;
+  min-width: 30%;
+  max-width:550px;
+  max-height:600px;
+  background-color: lightgray;
+  margin-bottom: 5px;
+}
+
+.circle1{
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  align-self: center;
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+
+.triangle-down {
+  position: absolute;
+  top:70px;
+  left:25%;
+  bottom:100px;
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 150px solid green;
+}
+
+
+.outerCircle{
+  display:flex;
+  min-width: 200px;
+  min-height: 200px;
+  max-height:200px;
+  background-color: grey;
+  }
+
+  .top, .bottom{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    min-height: 50px;
+    max-width: 300px;
+  max-height: 50px;
+  background-color: grey;
+  }
+
+  .bottom{
+    margin-bottom:5px;
+  }
+
+  .top{
+    position: relative;
+  }
+
+.button, .button1{
+  background: grey;
+  color: white;
+  border: none;
+  font-weight: bold;
+  max-width:200px;
+  height: 50px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:5px;
+  }
+
+  .right, .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50px;
+    min-height: 200px;
+    max-width: 50px;
+  max-height: 200px;
+  background-color: grey;
+  }
+
+  .buttons{
+    min-width: 300px;
+    display:flex;
+    justify-content: space-between;
+
+  }
+
+  .allCharts{
+    border: 0.5%;
+    background: steelblue;
+    display:flex;
+    flex-wrap: wrap;
+    max-width:65%;
+    min-width: 65%;
+  
+  }
+
+  .semi
+    {
+      width: 200px;
+      height: 100px;
+      border-radius: 12rem 12rem 0 0;
+      background-color: white;
+    }
+
+    .astrics{
+      visibility: hidden;
+    }
+
+    .rectangle
+  {
+    width: 200px;
+    height:30px;
+    background-color: white;
+  }
+
+  .both{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .everything{
+    margin: 0 auto;
+    display: flex;
+    
+  }
+
+  .main{
+    display:flex;
+    flex-direction: column;
+    margin-right: 1%;
+    justify-content: flex-start;
+    background: steelblue;
+    display:flex;
+    max-width:33%;
+    min-width: 33%;
+    justify-content: flex-start;
+    align-items:center;
+    border: 1px solid black;
+  }
+
+  .parametry{
+    border: 1px solid black;
+    min-width: 90%;
+    max-width: 90%;
+    padding:3%;
+    border-radius: 5px;
+    list-style-type: none;
+    background: white;
+    font-weight: bold;
+  }
+
+.rectangle{
+  min-width: 300px;
+  min-height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color:white;
+  
+}
+
+.topologia{
+  min-width: 700px;
+  min-height: 700px;
+  background-color: white;
+}
+
+#svgDiv{
+  border: 1px solid white;
+  background-color: black;
+}
+
+ 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script/svg.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+
+		
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+   
+        
+       
+
+
+
+    <div id="header-main">
+
+        <img id="codesvg" src="mikronika-logo.png" width="171" height="64">
+        <div id="sensotransel"><h2 class="header-logo">WIZUALIZACJA PRACY MODUŁU KONTROLI SYNCHRONIZMU</h2> </div>
+            
+    </div>
+
+    <div class="everything">
+        <div class="allCharts">
+            <div class="charts" id="svgTopologia">
+                <div id="svgDiv"></div>
+                <div id="sld"></div>
+            </div>
+
+            <div class="charts">
+                <h3>Różnica napięć ΔΦ12</h3>
+                <canvas id="speedometer1"></canvas>
+            </div>
+
+            <div class="charts">
+                <h3>Różnca faz ΔΦ12</h3>
+                <canvas id="speedometer2"></canvas>
+            </div>
+
+            <div class="charts">
+                <h3>Różnica częstotliwości Δf12</h3>
+                <canvas id="speedometer3"></canvas>
+            </div>
+           
+        </div>
+
+        
+
+        <div class="main">
+            <h3>Sterowanie lokalne</h3>
+            <ul class="parametry">
+            <li><b>Pomiary</b></li>  
+            <li>Napięcie pola (P1)</li>
+            <li>Napięcie systemu P2</li>
+            <li>U12</li>
+            <li>U23</li>
+            <li>U31</li>
+            <li>Częstotliwość napięcia pola</li>
+            <li>Częstotliwość napięcia systemu</li>
+            <li>Parametry ostatniego sterowania</li>
+    
+    
+            </ul>
+    
+            
+            <h3>Parametry modułu kontroli synchronizmu</h3>
+            <ul class="parametry">
+            <li>1</li>  
+            <li>Napięcie nominalne U<small>SySy</small></li>
+            <li>Dolny próg stanu napięciowego pola</li>
+            <li>Górny próg stanu beznapięciowego pola</li>
+            <li>Dolny próg stanu napięciowego systemu</li>
+            <li>Górny próg stanu beznapięciowego systemu</li>
+            <li>Maksymalna różnica napięć ΔUmax</li>
+            <li>Maksymalna różnica faz ΔΦ max</li>
+            <li>Maksymalna różnica częstotliwości Δfmax </li>
+            <li>Czas oczekiwania na synchronizację</li>
+            <li>Pomiar napięcia pola: 1-fazowy</li>
+            <li>Pomiar napięcia systemu: 3 fazowy</li>
+            <li>Sterowanie w stanie beznap. pola dozwolone</li>
+            <li>Sterowanie w stanie beznap. systemu dozwolone</li>
+    
+            </ul>
+    
+            <h3>Stan pola i systemu</h3>
+            <ul class="parametry">
+            <li>stan napięciowy</li>  
+            <li>Pole w stanie beznapięciowym</li>
+            <li>System w stanie beznapięciowym</li>
+            <li>Pole w stanie zabronionym</li>
+            <li>System w stanie zabronionym</li>
+            <li>Przebieg napięć wejściowych prawidłowy</li>
+            <li>Fazy napięć wejściowych niesymetryczne</li>
+            </ul>
+    
+            <h3>Stan modułu kontroli synchronizmu</h3>
+            <ul class="parametry">
+            <li>Stan synchronizmu</li>  
+            <li>Kontrola synchronizmu załączona</li>
+            </ul>
+    
+    
+    
+    
+    
+            </div>
+     
+
+    </div>
+
+    
+
+   
+
+    <script src="index.js"></script>
+    <script src="xmlSvg.js"></script>
+</body>
+</html>
